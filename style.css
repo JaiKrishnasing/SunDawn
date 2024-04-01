@@ -1,0 +1,25 @@
+canvas {
+  background-color: #3cc9c9;
+  display: block;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.user-interaction-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-interaction-content textarea {
+  height: 75px;
+  width: 500px;
+}
+
+.user-interaction-content:nth-child(2) textarea {
+  height: 200px;
+  width: 500px;
+}
